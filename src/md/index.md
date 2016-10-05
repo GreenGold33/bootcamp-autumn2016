@@ -187,6 +187,15 @@ Colors in the git commands
 
 ![basic-remote-workflow](img/basic-remote-workflow.png)
 
+!SLIDE git image remote
+
+![basic-remote-workflow](img/git-schema-1.png)
+
+!SLIDE git image remote
+
+![basic-remote-workflow](img/git-schema-2.png)
+
+
 !SLIDE git exercise
 
 ## <span class="icon-laptop"></span> Git practice
