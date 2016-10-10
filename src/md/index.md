@@ -827,6 +827,12 @@ Do the following [KOAN](https://github.com/mrdavidlaing/javascript-koans) to pra
 - Inside these files create the markup of the pages explained here https://github.com/juanmaguitar/html-layouts-exercises/tree/master/01-skylabcoders-web
 - Do different commits & `push` your changes to the remote repository when you complete the markup
 
+!SLIDE html5 exercise
+
+## <span class="icon-laptop"></span> Form Challenges
+
+- Do the exercise suggested at https://github.com/juanmaguitar/html-layouts-exercises/tree/master/02-form-exercise
+
 
 !SLIDE html5
 
