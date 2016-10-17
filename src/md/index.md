@@ -1252,7 +1252,7 @@ Group yourself in pairs an do the following exercises:
 
 Group yourself in pairs an do the following exercises:
 
-- From [Learn how Script Tags and Document Ready Work]https://www.freecodecamp.com/challenges/learn-how-script-tags-and-document-ready-work) to [Use jQuery to Modify the Entire Page](https://www.freecodecamp.com/challenges/use-jquery-to-modify-the-entire-page)
+- From [Learn how Script Tags and Document Ready Work](https://www.freecodecamp.com/challenges/learn-how-script-tags-and-document-ready-work) to [Use jQuery to Modify the Entire Page](https://www.freecodecamp.com/challenges/use-jquery-to-modify-the-entire-page)
 
 
 
