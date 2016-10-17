@@ -1241,10 +1241,7 @@ _Useful resources for working on responsive design & bootstrap projects_
 
 ## <span class="icon-laptop"></span> jQuery Practice
 
-Group yourself in pairs an do the following exercises:
-
-- From [Elements Selectors](http://try.jquery.com/levels/1/sections/3) to [DOM Ready](http://try.jquery.com/levels/1/sections/7)
-- From [Using jQuery](http://try.jquery.com/levels/1/sections/8) to [Class Selector](http://try.jquery.com/levels/1/sections/13)
+Group yourself in pairs an do the exercises suggested at Levels 1,2 & 3 in: http://try.jquery.com/
 
 !SLIDE jquery exercise
 
@@ -1253,6 +1250,12 @@ Group yourself in pairs an do the following exercises:
 Group yourself in pairs an do the following exercises:
 
 - From [Learn how Script Tags and Document Ready Work](https://www.freecodecamp.com/challenges/learn-how-script-tags-and-document-ready-work) to [Use jQuery to Modify the Entire Page](https://www.freecodecamp.com/challenges/use-jquery-to-modify-the-entire-page)
+
+!SLIDE jquery exercise
+
+## <span class="icon-laptop"></span> jQuery Practice Events
+
+Group yourself in pairs an do the exercises suggested at Level 4 in: http://try.jquery.com/
 
 
 
