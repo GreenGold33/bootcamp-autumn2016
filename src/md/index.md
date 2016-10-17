@@ -1237,12 +1237,24 @@ _Useful resources for working on responsive design & bootstrap projects_
   - [Events delegation](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/12-events#events-delegation)
   - [jQuery events](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/12-events#jquery-events) 
   
-!SLIDE jquery
-   exercise
+!SLIDE jquery exercise
 
 ## <span class="icon-laptop"></span> jQuery Practice
 
-Group yourself in pairs an do the following exercises http://jqexercise.droppages.com/
+Group yourself in pairs an do the following exercises:
+
+- From [Elements Selectors](http://try.jquery.com/levels/1/sections/3) to [DOM Ready](http://try.jquery.com/levels/1/sections/7)
+- From [Using jQuery](http://try.jquery.com/levels/1/sections/8) to [Class Selector](http://try.jquery.com/levels/1/sections/13)
+
+!SLIDE jquery exercise
+
+## <span class="icon-laptop"></span> jQuery Practice FreeCodeCamp
+
+Group yourself in pairs an do the following exercises:
+
+- From [Learn how Script Tags and Document Ready Work]https://www.freecodecamp.com/challenges/learn-how-script-tags-and-document-ready-work) to [Use jQuery to Modify the Entire Page](https://www.freecodecamp.com/challenges/use-jquery-to-modify-the-entire-page)
+
+
 
 !SLIDE jquery exercise
 
@@ -2844,6 +2856,7 @@ var mydoc = {
 ## [Mongo & Node](https://docs.mongodb.com/getting-started/node/)
 
 - [`mongodb`](https://www.npmjs.com/package/mongodb) 
+  + [The Node.js Driver](https://www.youtube.com/watch?v=u3FLcQmaj1E)
 
 ```
 var MongoClient = require('mongodb').MongoClient;
