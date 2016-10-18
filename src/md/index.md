@@ -1259,6 +1259,12 @@ Group yourself in pairs an do the exercises suggested at Levels 3 & 4 in: http:/
 
 !SLIDE jquery exercise
 
+## <span class="icon-laptop"></span> jQuery Percentage Calculator
+
+Do the following exercise: https://github.com/juanmaguitar/exercises-javascript/tree/master/19-percentage-calculator
+
+!SLIDE jquery exercise
+
 ## <span class="icon-laptop"></span> KOAN jQuery
 
 - Group yourselves in pairs
