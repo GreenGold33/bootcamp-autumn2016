@@ -2447,6 +2447,16 @@ Postman-Token: 9b1e66e2-0e5d-ed60-1a5f-9d9d936e9f4e
 username=juanma
 ```
 
+
+!SLIDE node
+
+## Debugging w/ Node
+
+- `console.log`
+- [**Devtools**](https://github.com/Jam3/devtool) [[1]](https://mattdesl.svbtle.com/debugging-nodejs-in-chrome-devtools)
+- [node-inspector](https://github.com/node-inspector/node-inspector)
+
+
 !SLIDE node 
 
 ## Resources for this Unit  
