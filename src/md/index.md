@@ -1301,6 +1301,12 @@ Do the following exercise: https://github.com/juanmaguitar/exercises-javascript/
 
 - Do the following app with jQuery and the Spotify API: https://github.com/juanmaguitar/exercises-javascript/tree/master/04-jquery-spotify-API
 
+!SLIDE jquery exercise
+
+## <span class="icon-laptop"></span> Challenge: Beers App
+
+- Do the following app with jQuery and this Beers API: https://github.com/juanmaguitar/exercises-javascript/tree/master/18-beers-app
+
 
 !SLIDE jquery exercise
 
