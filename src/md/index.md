@@ -1742,6 +1742,8 @@ Do the following katas to assure the understanding of template strings
 - Shorthand methods names
 - Dynamic property names
 - [_getter_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get) and [_setter_](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/set)
+- [Examples](https://gist.github.com/juanmaguitar/fa284ba904992a4ece44e6e42ec81498)
+
 
 
 !SLIDE es2015 smallcode
@@ -2817,7 +2819,7 @@ var mydoc = {
 - [Using mongoDB](http://stackoverflow.com/questions/4883045/mongodb-difference-between-running-mongo-and-mongod-databases) [[1]](http://michelebusta.com/the-little-things-5-initialize-a-local-mongo-db/)
     + [`mongod`](https://docs.mongodb.com/manual/reference/program/mongod/) ⟶ The Daemon
       + `mongod --dbpath ~/data/db`
-    + [`mongo`](https://docs.mongodb.com/manual/mongo/) ⟶ The Shell ([**Reference Guide**](https://docs.mongodb.com/manual/reference/mongo-shell/))
+    + [`mongo`](https://docs.mongodb.com/manual/mongo/) ⟶ The Shell ([**Reference Guide**](https://docs.mongodb.com/manual/reference/mongo-shell/)) → [Mongo Hacker](https://github.com/TylerBrock/mongo-hacker) 😎
       + `show dbs` & `use ProjectDBName` & `show collections`
       + `db.collection.help()` & `db.collection.find().help()`
 
@@ -3034,10 +3036,30 @@ Do the followig exercises: https://github.com/juanmaguitar/node-exercises/tree/m
 
 ## Data Modeling
 
+- 6 Rules of Thumb for MongoDB Schema Design [[1]](http://blog.mongodb.org/post/87200945828/6-rules-of-thumb-for-mongodb-schema-design-part-1) [[2]](http://blog.mongodb.org/post/87892923503/6-rules-of-thumb-for-mongodb-schema-design-part-2) [[3]](http://blog.mongodb.org/post/88473035333/6-rules-of-thumb-for-mongodb-schema-design-part-3)
+- [Data Modeling Deep Dive](https://www.mongodb.com/presentations/data-modeling-deep-dive)
+- [Optimize Query Performance](https://docs.mongodb.com/v3.2/tutorial/optimize-query-performance-with-indexes-and-projections/)
+- [Compound Indexes](https://docs.mongodb.com/v3.2/core/index-compound/) 
+  - [Optimizing MongoDB Compound Indexes](https://dzone.com/articles/optimizing-mongodb-compound) [[1]](http://blog.mlab.com/2012/06/cardinal-ins/)
+
+!SLIDE mongo
+
+## Data Modeling
+
 - [Data Models](https://docs.mongodb.com/manual/data-modeling/)
   - [Intro](https://docs.mongodb.com/manual/core/data-modeling-introduction/) | [Validation](https://docs.mongodb.com/manual/core/document-validation/) | [Concepts](https://docs.mongodb.com/manual/core/data-models/) | [Examples & Patterns](https://docs.mongodb.com/manual/applications/data-models/)
-- [SQL vs MongoDB](http://code.tutsplus.com/articles/mapping-relational-databases-and-sql-to-mongodb--net-35650)
+- [SQL vs MongoDB](http://code.tutsplus.com/articles/mapping-relational-databases-and-sql-to-mongodb--net-35650) [[1]](http://blog.mongodb.org/post/72874267152/transitioning-from-relational-databases-to-mongodb)
 - [Real life examples](http://es.slideshare.net/friedo/data-modeling-examples) | [Use Cases](https://docs.mongodb.com/ecosystem/use-cases/)
+
+!SLIDE mongo
+
+## Aggregation
+
+- Joins and Other Aggregation Enhancements [[1]](https://www.mongodb.com/blog/post/joins-and-other-aggregation-enhancements-coming-in-mongodb-3-2-part-1-of-3-introduction) [[2]](https://www.mongodb.com/blog/post/joins-and-other-aggregation-enhancements-coming-in-mongodb-3-2-part-2-of-3-worked-examples) [[3]](https://www.mongodb.com/blog/post/joins-and-other-aggregation-enhancements-coming-in-mongodb-3-2-part-3-of-3-adding-some-code-glue-and-geolocation) [[*]](http://www.clusterdb.com/mongodb/joins-and-other-aggregation-enhancements-in-mongodb-3-2)
+
+- [`$lookup`](https://docs.mongodb.com/manual/reference/operator/aggregation/lookup/) | [`$match`](https://docs.mongodb.com/manual/reference/operator/aggregation/lookup/)
+
+- [Using JOINs in MongoDB NoSQL Databases](https://www.sitepoint.com/using-joins-in-mongodb-nosql-databases/)
 
 
 !SLIDE mongo
