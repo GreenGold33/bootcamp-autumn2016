@@ -3042,14 +3042,29 @@ Do the followig exercises: https://github.com/juanmaguitar/node-exercises/tree/m
 - [Compound Indexes](https://docs.mongodb.com/v3.2/core/index-compound/) 
   - [Optimizing MongoDB Compound Indexes](https://dzone.com/articles/optimizing-mongodb-compound) [[1]](http://blog.mlab.com/2012/06/cardinal-ins/)
 
-!SLIDE mongo
+!SLIDE mongo list-details
 
 ## Data Modeling
 
 - [Data Models](https://docs.mongodb.com/manual/data-modeling/)
-  - [Intro](https://docs.mongodb.com/manual/core/data-modeling-introduction/) | [Validation](https://docs.mongodb.com/manual/core/document-validation/) | [Concepts](https://docs.mongodb.com/manual/core/data-models/) | [Examples & Patterns](https://docs.mongodb.com/manual/applications/data-models/)
+  - [Intro](https://docs.mongodb.com/manual/core/data-modeling-introduction/)
+    <li class='details'>Relationships between data represented w/ → **[references](https://docs.mongodb.com/manual/core/data-modeling-introduction/#references)** ([_normalized data models_](https://docs.mongodb.com/manual/core/data-model-design/#data-modeling-referencing)) and **[embedded documents](https://docs.mongodb.com/manual/core/data-modeling-introduction/#embedded-data)** ([_denormalized data models_](https://docs.mongodb.com/manual/core/data-model-design/#data-modeling-embedding))</li>
+  - [Validation](https://docs.mongodb.com/manual/core/document-validation/)
+  - [Data Models & Operational Factors](https://docs.mongodb.com/manual/core/data-models/)
+    <li class='details'>Embedded & Normalized Data Models, Document Growth, Atomicity, Sharding, Indexes...</li>
+
+
+!SLIDE mongo list-details
+
+## Data Modeling
+
+- [Examples & Patterns](https://docs.mongodb.com/manual/applications/data-models/)
+  <li class='details'>[Model **One-to-One** Relationships with Embedded Documents](https://docs.mongodb.com/manual/tutorial/model-embedded-one-to-one-relationships-between-documents/) → Ex: User w/ One Address</li>
+  <li class="details">[Model **One-to-Many** (_to-Few_) Relationships with Embedded Documents](https://docs.mongodb.com/manual/tutorial/model-embedded-one-to-many-relationships-between-documents/) → Ex: User w/ Multiple Addresses</li>
+  <li class="details">[Model **One-to-Many** Relationships with Document References](https://docs.mongodb.com/manual/tutorial/model-referenced-one-to-many-relationships-between-documents/) → Ex: Books & Publisher relationships</li>
+  <li class="details">[Model **Tree** Structures](https://docs.mongodb.com/manual/applications/data-models-tree-structures/) → Ex: Products, Categories & Subcategories</li>
 - [SQL vs MongoDB](http://code.tutsplus.com/articles/mapping-relational-databases-and-sql-to-mongodb--net-35650) [[1]](http://blog.mongodb.org/post/72874267152/transitioning-from-relational-databases-to-mongodb)
-- [Real life examples](http://es.slideshare.net/friedo/data-modeling-examples) | [Use Cases](https://docs.mongodb.com/ecosystem/use-cases/)
+- [Use Cases](https://docs.mongodb.com/ecosystem/use-cases/)
 
 !SLIDE mongo
 
