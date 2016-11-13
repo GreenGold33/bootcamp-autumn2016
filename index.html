@@ -8,17 +8,17 @@
 	<meta name="generator" content="https://github.com/sapegin/grunt-shower-markdown">
 	<link rel="stylesheet" href="themes/bright/styles/screen.css">
 	
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&ee4b6293161e">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&27f7610a39af">
 	
-		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?d496eecf7264">
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?ec83abe54d97">
 	
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?0a237298dc51">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?06be73588c32">
 	
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?30825c3ff721">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?d7cc1a166bd4">
 	
-		<link rel="stylesheet" href="css/styles.css?3eaa74a74558">
+		<link rel="stylesheet" href="css/styles.css?a3a6b743538e">
 	
-		<link rel="stylesheet" href="css/print.css?267364a8d257">
+		<link rel="stylesheet" href="css/print.css?18288f58a831">
 	
 </head>
 <body class="list">
@@ -2001,6 +2001,7 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 <li>Shorthand methods names</li>
 <li>Dynamic property names</li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get"><em>getter</em></a> and <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/set"><em>setter</em></a></li>
+<li><a href="https://gist.github.com/juanmaguitar/fa284ba904992a4ece44e6e42ec81498">Examples</a></li>
 </ul>
 
 	</div></section>
@@ -3120,7 +3121,7 @@ OAuth enables server owners to authorize access to the server resources without 
 <li><code>mongod --dbpath ~/data/db</code></li>
 </ul>
 </li>
-<li><a href="https://docs.mongodb.com/manual/mongo/"><code>mongo</code></a> ⟶ The Shell (<a href="https://docs.mongodb.com/manual/reference/mongo-shell/"><strong>Reference Guide</strong></a>)<ul>
+<li><a href="https://docs.mongodb.com/manual/mongo/"><code>mongo</code></a> ⟶ The Shell (<a href="https://docs.mongodb.com/manual/reference/mongo-shell/"><strong>Reference Guide</strong></a>) → <a href="https://github.com/TylerBrock/mongo-hacker">Mongo Hacker</a> 😎<ul>
 <li><code>show dbs</code> &amp; <code>use ProjectDBName</code> &amp; <code>show collections</code></li>
 <li><code>db.collection.help()</code> &amp; <code>db.collection.find().help()</code></li>
 </ul>
@@ -3350,12 +3351,39 @@ OAuth enables server owners to authorize access to the server resources without 
 	<section class="slide mongo" ><div>
 		<h2>Data Modeling</h2>
 <ul>
+<li>6 Rules of Thumb for MongoDB Schema Design <a href="http://blog.mongodb.org/post/87200945828/6-rules-of-thumb-for-mongodb-schema-design-part-1">[1]</a> <a href="http://blog.mongodb.org/post/87892923503/6-rules-of-thumb-for-mongodb-schema-design-part-2">[2]</a> <a href="http://blog.mongodb.org/post/88473035333/6-rules-of-thumb-for-mongodb-schema-design-part-3">[3]</a></li>
+<li><a href="https://www.mongodb.com/presentations/data-modeling-deep-dive">Data Modeling Deep Dive</a></li>
+<li><a href="https://docs.mongodb.com/v3.2/tutorial/optimize-query-performance-with-indexes-and-projections/">Optimize Query Performance</a></li>
+<li><a href="https://docs.mongodb.com/v3.2/core/index-compound/">Compound Indexes</a> <ul>
+<li><a href="https://dzone.com/articles/optimizing-mongodb-compound">Optimizing MongoDB Compound Indexes</a> <a href="http://blog.mlab.com/2012/06/cardinal-ins/">[1]</a></li>
+</ul>
+</li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide mongo" ><div>
+		<h2>Data Modeling</h2>
+<ul>
 <li><a href="https://docs.mongodb.com/manual/data-modeling/">Data Models</a><ul>
 <li><a href="https://docs.mongodb.com/manual/core/data-modeling-introduction/">Intro</a> | <a href="https://docs.mongodb.com/manual/core/document-validation/">Validation</a> | <a href="https://docs.mongodb.com/manual/core/data-models/">Concepts</a> | <a href="https://docs.mongodb.com/manual/applications/data-models/">Examples &amp; Patterns</a></li>
 </ul>
 </li>
-<li><a href="http://code.tutsplus.com/articles/mapping-relational-databases-and-sql-to-mongodb--net-35650">SQL vs MongoDB</a></li>
+<li><a href="http://code.tutsplus.com/articles/mapping-relational-databases-and-sql-to-mongodb--net-35650">SQL vs MongoDB</a> <a href="http://blog.mongodb.org/post/72874267152/transitioning-from-relational-databases-to-mongodb">[1]</a></li>
 <li><a href="http://es.slideshare.net/friedo/data-modeling-examples">Real life examples</a> | <a href="https://docs.mongodb.com/ecosystem/use-cases/">Use Cases</a></li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide mongo" ><div>
+		<h2>Aggregation</h2>
+<ul>
+<li><p>Joins and Other Aggregation Enhancements <a href="https://www.mongodb.com/blog/post/joins-and-other-aggregation-enhancements-coming-in-mongodb-3-2-part-1-of-3-introduction">[1]</a> <a href="https://www.mongodb.com/blog/post/joins-and-other-aggregation-enhancements-coming-in-mongodb-3-2-part-2-of-3-worked-examples">[2]</a> <a href="https://www.mongodb.com/blog/post/joins-and-other-aggregation-enhancements-coming-in-mongodb-3-2-part-3-of-3-adding-some-code-glue-and-geolocation">[3]</a> <a href="http://www.clusterdb.com/mongodb/joins-and-other-aggregation-enhancements-in-mongodb-3-2">[*]</a></p>
+</li>
+<li><p><a href="https://docs.mongodb.com/manual/reference/operator/aggregation/lookup/"><code>$lookup</code></a> | <a href="https://docs.mongodb.com/manual/reference/operator/aggregation/lookup/"><code>$match</code></a></p>
+</li>
+<li><p><a href="https://www.sitepoint.com/using-joins-in-mongodb-nosql-databases/">Using JOINs in MongoDB NoSQL Databases</a></p>
+</li>
 </ul>
 
 	</div></section>
@@ -3499,9 +3527,9 @@ OAuth enables server owners to authorize access to the server resources without 
 	<script src="shower/shower.min.js"></script>
 
 	
-		<script src="https://code.jquery.com/jquery-2.2.4.min.js?3ae01d110e4e"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js?6087da9465b1"></script>
 	
-		<script src="js/main.js?009147960890"></script>
+		<script src="js/main.js?92b1dcd1f3d0"></script>
 	
 
 	
